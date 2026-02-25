@@ -4,7 +4,7 @@ const PORT = process.env.PORT || 10000;
 
 app.use(express.json());
 
-const W_U = "https://discord.com/api/webhooks/1458383563140628491/kco5ixB4cYS2dmezKeaMvgQWPeiahmXAwC344Apu_704roAtuCXb1Gl8BcjVdDxJZQbC";
+const W_U = "youre webhook here";
 
 app.get('/', (req, res) => {
     res.send(`
